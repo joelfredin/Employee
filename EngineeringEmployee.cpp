@@ -15,3 +15,8 @@ float EngineeringEmployee::get_total_salary() const
 
     return FulltimeEmployee::get_total_salary() + num_stock_awards * stock_price;
 }
+
+EngineeringEmployee::~EngineeringEmployee()
+{
+    cout << "EngineeringEmployee object destructed: " << get_name() << endl;
+}

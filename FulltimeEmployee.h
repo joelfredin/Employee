@@ -15,4 +15,6 @@ class FulltimeEmployee: public Employee
         float get_total_salary() const override;
 
         const FulltimeEmployee& increase_salary_and_return_this();
+
+        ~FulltimeEmployee();
 };

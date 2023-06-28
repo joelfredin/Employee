@@ -20,4 +20,6 @@ class Employee
         float virtual get_total_salary() const;
 
         virtual const Employee& increase_salary_and_return_this();
+
+        virtual ~Employee() = default;
 };

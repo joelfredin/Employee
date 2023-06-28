@@ -12,4 +12,6 @@ class EngineeringEmployee final: public FulltimeEmployee
         EngineeringEmployee(std::string name, float salary, float bonus_percent, int num_stock_awards, float stock_price);
 
         float get_total_salary() const override;
+
+        ~EngineeringEmployee();
 };

@@ -27,3 +27,8 @@ const FulltimeEmployee& FulltimeEmployee::increase_salary_and_return_this()
 
     return *this;
 }
+
+FulltimeEmployee::~FulltimeEmployee()
+{
+    cout << "FulltimeEmployee object destructed: " << get_name() << endl;
+}

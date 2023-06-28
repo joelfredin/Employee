@@ -32,3 +32,8 @@ const ContractEmployee& ContractEmployee::increase_salary_and_return_this()
 
     return *this;
 }
+
+ContractEmployee::~ContractEmployee()
+{
+    cout << "ContractEmployee object destructed: " << get_name() << endl;
+}

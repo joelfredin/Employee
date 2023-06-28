@@ -18,4 +18,8 @@ class ContractEmployee : public Employee
         float get_total_salary() const;
 
         const ContractEmployee& increase_salary_and_return_this();
+
+        ~ContractEmployee();
+
+        
 };
